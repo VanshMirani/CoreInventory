@@ -1,0 +1,19 @@
+{
+  "name": "electrostock-inventory-system",
+  "version": "1.0.0",
+  "description": "Electronic store inventory management system",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "server": "cd backend && npm run dev",
+    "client": "cd frontend && npm start",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "build": "cd frontend && npm run build"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "dependencies": {
+    "jspdf": "^4.2.0"
+  }
+}
