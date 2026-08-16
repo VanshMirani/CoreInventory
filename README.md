@@ -77,7 +77,6 @@ CoreInventory provides a digital solution that allows users to manage inventory 
 * Git
 * GitHub
 
-> Note: Update this section if your project uses React, Tailwind CSS, MySQL, Firebase, or any other technologies.
 
 ---
 
